@@ -18,7 +18,6 @@
 <ul>
   <li><b>sudo apt-get install git -y</b></li>
   <li><b>git --version</b></li>
-  <li><b>git init</b></li>
   <li><b>git config --global user.name "ArturSkrzeta"</b></li>
   <li><b>git config --global user.email "arturskrzeta@gmail.com"</b></li>
   
@@ -41,9 +40,10 @@
   <li><b>mkdir git_workspace</b></li>
   <li><b>cd git_workspace</b></li>
   
-  <li><b>git clone https://github.com/ArturSkrzeta/BeautifulSoup-for-Web-Scraping.git</b>
+  <li><b>git init or git clone https://github.com/ArturSkrzeta/BeautifulSoup-for-Web-Scraping.git</b>
   <br>
-  - clones repository from GitHub
+  - init for initializing new repository (locally)
+  - clone for copying repository from GitHub
   </li>
   
   <li><b>touch script.py</b></li>
@@ -58,6 +58,16 @@
   <li><b>git add script.py</b>
   <br>
   - adding a file to a git
+  </li>
+  
+  <li><b>git add .</b>
+  <br>
+  - adding all files in working directory
+  </li>
+  
+  <li><b>git rm -f script.pu</b>
+  <br>
+  - removing file from staging area
   </li>
   
   <li><b>git status</b>
