@@ -8,4 +8,10 @@
 <ul>
   <li><b>sudo apt-get install git -y</b></li>
   <li><b>git --version</b></li>
+  <li><b>git config --global user.name "ArturSkrzeta"</b></li>
+  <li><b>git config --global user.email "arturskrzeta@gmail.com"</b></li>
+  <li><b>git config --list</b>
+  <br>
+  - shows all the configuration you porivde
+  </li>
 </ul>
