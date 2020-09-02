@@ -9,10 +9,15 @@
     <li><b>local repository</b> --> local machine repository</li>
   </ul>
 </ul>
+
+<h3>Workflow</h3>
+<p>Working directory -- <b>GIT ADD</b> --> Staging Area -- <b>GIT COMMIT</b> --> Repository</p>
+
 <h3>Installation and commands in Ubuntu terminal</h3>
 <ul>
   <li><b>sudo apt-get install git -y</b></li>
   <li><b>git --version</b></li>
+  <li><b>git init</b></li>
   <li><b>git config --global user.name "ArturSkrzeta"</b></li>
   <li><b>git config --global user.email "arturskrzeta@gmail.com"</b></li>
   
