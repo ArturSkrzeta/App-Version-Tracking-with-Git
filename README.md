@@ -35,4 +35,29 @@
   - clones repository from GitHub
   </li>
   
+  <li><b>touch script.py</b></li>
+  <li><b>gedit script.py</b></li>
+  
+  <li><b>git status</b>
+  <br>
+  - gives repository status
+  - it shows that one files has to be added to git
+  </li>
+  
+  <li><b>git add script.py</b>
+  <br>
+  - adding a file to a git
+  </li>
+  
+  <li><b>git status</b>
+  <br>
+  - it shpws there are changes to commit 
+  </li>
+  
+  <li><b>git commit -m</b>
+  <br>
+  - dash m gives allows to provide command
+  </li>
+  
+  
 </ul>
