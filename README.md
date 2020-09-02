@@ -65,7 +65,7 @@
   - adding all files in working directory
   </li>
   
-  <li><b>git rm -f script.pu</b>
+  <li><b>git rm -f script.py</b>
   <br>
   - removing file from staging area
   </li>
