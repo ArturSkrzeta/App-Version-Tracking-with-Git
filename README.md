@@ -11,7 +11,7 @@
 </ul>
 
 <h3>Workflow</h3>
-<p>Working directory -- <b>GIT ADD</b> --> Staging Area -- <b>GIT COMMIT</b> --> Repository</p>
+<p>Working directory <b>-- GIT ADD --></b> Staging Area <b>-- GIT COMMIT --></b> Repository</p>
 
 <h3>Installation and commands in Ubuntu terminal</h3>
 <ul>
