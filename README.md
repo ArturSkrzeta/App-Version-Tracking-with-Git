@@ -5,7 +5,7 @@
   <li>Can be hosted on local computer or on a shared server like GitHub</li>
   <li>Contributors wokring on the project make  copies of the repository on their local mnachines using the push and pull commands.</li>
   <ul>
-    <li><b>remote repository</b> --> shared server repository</li>
+    <li><b>remote repository</b> --> shared server repository f.e.: GitHub</li>
     <li><b>local repository</b> --> local machine repository</li>
   </ul>
 </ul>
