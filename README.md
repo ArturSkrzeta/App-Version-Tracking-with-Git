@@ -51,13 +51,19 @@
   
   <li><b>git status</b>
   <br>
-  - it shpws there are changes to commit 
+  - it shows there are changes to commit 
   </li>
   
-  <li><b>git commit -m</b>
+  <li><b>git commit -m "First Python application" script.py</b>
   <br>
   - dash m gives allows to provide command
+  - in this case comment to the commit added 
   </li>
   
+  <li><b>git push -u origin master</b>
+  <br>
+  - pushing file into GitHub account
+  - it requires your GitHub credentials
+  </li>
   
 </ul>
