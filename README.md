@@ -1,8 +1,13 @@
 <h2>Version Control with Git</h2>
-<h3>Intro</h3>
+<h3>Repository</h3>
 <ul>
-  <li>...</li>
-  <li>...</li>
+  <li>Keeps the full history and source control of a project over time.</li>
+  <li>Can be hosted on local computer or on a shared server like GitHub</li>
+  <li>Contributors wokring on the project make  copies of the repository on their local mnachines using the push and pull commands.</li>
+  <ul>
+    <li><b>remote repository</b> --> shared server repository</li>
+    <li><b>local repository</b> --> local machine repository</li>
+  </ul>
 </ul>
 <h3>Installation and commands in Ubuntu terminal</h3>
 <ul>
