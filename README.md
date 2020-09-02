@@ -87,4 +87,9 @@
   - it requires your GitHub credentials
   </li>
   
+  <li><b>git log</b>
+  <br>
+  - lists all commits with dates
+  </li>
+  
 </ul>
