@@ -12,6 +12,7 @@
 
 <h3>Workflow</h3>
 <p>Working directory <b>-- GIT ADD --></b> Staging Area <b>-- GIT COMMIT --></b> Repository</p>
+<img src="images/workflow.JPG">
 
 <h3>Installation and commands in Ubuntu terminal</h3>
 <ul>
