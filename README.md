@@ -13,7 +13,7 @@
   
   <li><b>git config --list</b>
   <br>
-  - shows all the configuration you porivde
+  - shows all the configuration you provide
   </li>
   
   <li><b>ls -al</b>
@@ -22,10 +22,17 @@
   - we can find .gitconfig file that stores all the configuration in home directory.
   </li>
   
-  <li><b>ls -al</b>
+  <li><b>gedit .gitconfig</b>
   <br>
-  - shows all files
-  - we can find .gitconfig file that stores all the configuration in home directory.
+  - opens gitconfig file
+  </li>
+  
+  <li><b>mkdir git_workspace</b></li>
+  <li><b>cd git_workspace</b></li>
+  
+  <li><b>git clone https://github.com/ArturSkrzeta/BeautifulSoup-for-Web-Scraping.git</b>
+  <br>
+  - clones repository from GitHub
   </li>
   
 </ul>
