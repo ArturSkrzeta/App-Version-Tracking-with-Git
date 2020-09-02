@@ -1,4 +1,4 @@
-<h2>Version Control with Git</h2>
+<h2>Version Control with Git and GitHub</h2>
 <h3>Repository</h3>
 <ul>
   <li>Keeps the full history and source control of a project over time.</li>
