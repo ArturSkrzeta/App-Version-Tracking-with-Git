@@ -1,7 +1,7 @@
 <h2>Version Control with Git and GitHub</h2>
 <h3>Repository</h3>
 <ul>
-  <li>Keeps the full history and source control of a project over time.</li>
+  <li>Git stores the full history and source control of a project over time.</li>
   <li>Can be hosted on local computer or on a shared server like GitHub</li>
   <li>Contributors wokring on the project make  copies of the repository on their local mnachines using the push and pull commands.</li>
   <ul>
