@@ -101,6 +101,12 @@
     <br>
     <img src="images/branches.JPG">
   </li>
+  <li>Getting back to master branch makes files created on new_branch disappear:
+    <br>
+    - git checkout master<br>
+    <br>
+    <img src="images/back_to_master.JPG">
+  </li>
 </ul>
 
 
