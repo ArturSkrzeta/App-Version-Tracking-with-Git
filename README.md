@@ -107,6 +107,10 @@
     <br>
     <img src="images/back_to_master.JPG">
   </li>
+  <li>Merging master and new_branch branches from master branch:
+    <br>
+    - git merge new_branch
+  </li>
 </ul>
 
 
