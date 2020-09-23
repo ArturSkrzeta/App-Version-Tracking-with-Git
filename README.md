@@ -137,6 +137,15 @@
     - git commit -m 'Adding readme'<br>
     - git push<br>
   </li>
+  <li>Pulling all repository:
+    <br>
+    - git pull
+  </li>
+  <li>Cloning a repository:
+    <br>
+    - git clone https://github.com/ArturSkrzeta/Test2.git<br>
+    - copying repository into current directory
+  </li>
 </ul>
 
 
