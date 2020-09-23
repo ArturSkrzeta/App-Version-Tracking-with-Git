@@ -115,6 +115,19 @@
 
 
 
+<h3>Remote repository</h3>
+<ul>
+  <li>Listing all remote repositories:
+    <br>
+    - git remote
+  </li>
+   <li>Adding remote repository:
+    <br>
+    - git remote add origin 
+  </li>
+</ul>
+
+
 <h3>Installation and commands in Ubuntu terminal (Github)</h3>
 <ul>
   <li><b>sudo apt-get install git -y</b></li>
