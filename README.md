@@ -62,7 +62,8 @@
   </li>
   <li>Adding all files to stage:
     <br>
-    - git add .
+    - git add .<br>
+    - it commits whole directory paths as well
   </li>
   <li>Committing staged files:
     <br>
@@ -79,7 +80,9 @@
   <li>Setting a file as ignored to prevent from staging and committing:
     <br>
     - touch .gitignore<br>
-    - in .gitignore type file name to be ingored along with an extension f.e.: index.html
+    - in .gitignore type file name to be ingored along with an extension f.e.: index.html<br>
+    - in .gitignore type while directory f.e.: /dir2<br>
+    - .gitignore will be staged and committed as well
   </li>
 </ul>
 
