@@ -177,7 +177,7 @@
   
   <li><b>git init or git clone https://github.com/ArturSkrzeta/BeautifulSoup-for-Web-Scraping.git</b>
   <br>
-  - init for initializing new repository (locally)
+  - init for initializing new repository (locally)<br>
   - clone for copying repository from GitHub
   </li>
   
