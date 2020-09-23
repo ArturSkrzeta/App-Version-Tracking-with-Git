@@ -33,7 +33,33 @@
 <p>Working directory <b>-- GIT ADD --></b> Staging Area <b>-- GIT COMMIT --></b> Repository</p>
 <img src="images/workflow.JPG">
 
-<h3>Installation and commands in Ubuntu terminal</h3>
+<h3>Git on Windows 10</h3>
+<ul>
+  <li>Running Git Bash.</li>
+  <li>Go to project folder with <b>cd</b> command.</li>
+  <li>Create project files as needed with <b>touch</b> command</li>
+  <li>Initialize directory as git repository with <b>git init</b> command:
+    <br>
+    - it creates .git hidden folder in the current directory
+  </li>
+  <li>Create user:
+    <br>
+    - git config --global user.name 'Artur Skrzeta'<br>
+    - git config --global user.email 'arturskrzeta@gmail.com'
+  </li>
+  <li>Adding files to stage:
+    <br>
+    - git add script.py
+  </li>
+  <li>Checking what is in the stage:
+    <br>
+    - git status
+  </li>
+</ul>
+
+
+
+<h3>Installation and commands in Ubuntu terminal (Github)</h3>
 <ul>
   <li><b>sudo apt-get install git -y</b></li>
   <li><b>git --version</b></li>
