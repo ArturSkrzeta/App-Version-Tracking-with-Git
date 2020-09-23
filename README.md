@@ -163,7 +163,7 @@
   
   <li><b>ls -al</b>
   <br>
-  - shows all files
+  - shows all files<br>
   - we can find .gitconfig file that stores all the configuration in home directory.
   </li>
   
@@ -186,7 +186,7 @@
   
   <li><b>git status</b>
   <br>
-  - gives repository status
+  - gives repository status<br>
   - it shows that one files has to be added to git
   </li>
   
@@ -218,7 +218,7 @@
   
   <li><b>git push -u origin master</b>
   <br>
-  - pushing file into GitHub account
+  - pushing file into GitHub account<br>
   - it requires your GitHub credentials
   </li>
   
