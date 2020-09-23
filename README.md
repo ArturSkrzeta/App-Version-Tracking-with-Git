@@ -72,6 +72,10 @@
     <br>
     <img src="images/commit.JPG">
   </li>
+  <li>Committing staged files with commentary:
+    <br>
+    - git commit -m 'changed script.py'
+  </li>
 </ul>
 
 
