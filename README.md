@@ -64,6 +64,14 @@
     <br>
     - git add .
   </li>
+  <li>Committing staged files:
+    <br>
+    - git commit<br>
+    - it opens a new bash window: type 'i' for inserting, 'esc' keyboar for escaping inserting mode, ':wq' for writing and quitting
+    <br>
+    <br>
+    <img src="images/commit.JPG">
+  </li>
 </ul>
 
 
