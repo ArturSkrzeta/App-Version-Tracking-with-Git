@@ -1,4 +1,23 @@
 <h2>Version Control with Git and GitHub</h2>
+
+<h3>Intro</h3>
+<ul>
+  <li>Distributed version control system.</li>
+  <li>Coordinates work between multiple developers.</li>
+  <li>To see who made what changes and when.</li>
+  <li>Revert back in time.</li>
+  <li>Local and remote repos.</li>
+</ul>
+
+<h3>Git application</h3>
+<ul>
+  <li>Keeps track of code histor.</li>
+  <li>Takes snapshot of your files at a time.</li>
+  <li>You decide when to take a snapshot by making a commit.</li>
+  <li>You can visit any snpashot back in time.</li>
+  <li>You can stage files before committing.</li>
+</ul>
+
 <h3>Repository</h3>
 <ul>
   <li>Git stores the full history and source control of a project over time.</li>
