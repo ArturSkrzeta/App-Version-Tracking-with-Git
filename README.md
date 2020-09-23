@@ -212,7 +212,7 @@
   
   <li><b>git commit -m "First Python application" script.py</b>
   <br>
-  - dash m gives allows to provide command
+  - dash m gives allows to provide command<br>
   - in this case comment to the commit added 
   </li>
   
