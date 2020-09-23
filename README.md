@@ -16,6 +16,7 @@
   <li>You decide when to take a snapshot by making a commit.</li>
   <li>You can visit any snpashot back in time.</li>
   <li>You can stage files before committing.</li>
+  <li>Git indicates there is need to get files staged after every change.</li>
 </ul>
 
 <h3>Repository</h3>
