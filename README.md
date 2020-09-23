@@ -129,6 +129,14 @@
     <br>
     - git push -u origin master
   </li>
+  <li>Pushing README.md
+    <br>
+    - touch README.md<br>
+    - entering content to README.md<br>
+    - git add .<br>
+    - git commit -m 'Adding readme'<br>
+    - git push<br>
+  </li>
 </ul>
 
 
