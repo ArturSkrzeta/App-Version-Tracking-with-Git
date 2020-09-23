@@ -88,6 +88,23 @@
 
 
 
+<h3>Branches</h3>
+<ul>
+  <li>Commiting changes to project aside wwithout affecting main branch.</li>
+  <li>Creating a new branch:
+    <br>
+    - git branch new_branch
+  </li>
+  <li>Switching branches:
+    <br>
+    - git checkout new_branch<br>
+    <br>
+    <img src="images/branches.JPG">
+  </li>
+</ul>
+
+
+
 <h3>Installation and commands in Ubuntu terminal (Github)</h3>
 <ul>
   <li><b>sudo apt-get install git -y</b></li>
