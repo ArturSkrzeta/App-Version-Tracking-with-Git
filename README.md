@@ -47,13 +47,21 @@
     - git config --global user.name 'Artur Skrzeta'<br>
     - git config --global user.email 'arturskrzeta@gmail.com'
   </li>
-  <li>Adding files to stage:
+  <li>Adding a file to stage:
     <br>
     - git add script.py
   </li>
   <li>Checking what is in the stage:
     <br>
     - git status
+  </li>
+  <li>Removing files from the stage:
+    <br>
+    - git rm --cached script.py
+  </li>
+  <li>Adding all files to stage:
+    <br>
+    - git add .
   </li>
 </ul>
 
