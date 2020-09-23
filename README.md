@@ -76,6 +76,11 @@
     <br>
     - git commit -m 'changed script.py'
   </li>
+  <li>Setting a file as ignored to prevent from staging and committing:
+    <br>
+    - touch .gitignore<br>
+    - in .gitignore type file name to be ingored along with an extension f.e.: index.html
+  </li>
 </ul>
 
 
