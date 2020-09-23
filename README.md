@@ -123,7 +123,11 @@
   </li>
    <li>Adding remote repository:
     <br>
-    - git remote add origin 
+    - git remote add origin https://github.com/ArturSkrzeta/Test2.git
+  </li>
+  <li>Pushing local repository into remote one:
+    <br>
+    - git push -u origin master
   </li>
 </ul>
 
