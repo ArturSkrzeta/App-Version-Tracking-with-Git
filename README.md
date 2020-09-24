@@ -274,7 +274,7 @@
   <br>
   <li>Setting gh-pages branch for GitHub Pages:</li>
   <br>
-  <img src="images/gh-pages-as-default-branch-for-githubpages.JPG.JPG">
+  <img src="images/gh-pages-as-default-branch-for-githubpages.JPG">
   <br>
   <br>
 <ul>
