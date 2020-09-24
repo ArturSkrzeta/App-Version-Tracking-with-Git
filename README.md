@@ -97,6 +97,10 @@
 <h3>Branches</h3>
 <ul>
   <li>Commiting changes to project aside wwithout affecting main branch.</li>
+  <li>Listing all branches:
+    <br>
+    - git branch new_branch
+  </li>
   <li>Creating a new branch:
     <br>
     - git branch new_branch
@@ -141,7 +145,7 @@
     - entering content to README.md<br>
     - git add .<br>
     - git commit -m 'Adding readme'<br>
-    - git push<br>
+    - git push -u origin master<br>
   </li>
   <li>Pulling all repository:
     <br>
@@ -151,6 +155,11 @@
     <br>
     - git clone https://github.com/ArturSkrzeta/Test2.git<br>
     - copying repository into current directory
+  </li>
+  <li>Pushing a new branch to remote repository:
+    <br>
+    - git branch new_branch<br>
+    - git push origin new_branch
   </li>
 </ul>
 
