@@ -251,6 +251,7 @@
   <br>
   <img src="images/gitpages.JPG">
   <br>
+  <br>
   <li>Linking in the about section:</li>
   <br>
   <img src="images/linking.JPG">
