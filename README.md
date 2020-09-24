@@ -272,4 +272,12 @@
   <img src="images/delete_master.JPG">
   <br>
   <br>
+  <li>Setting gh-pages branch for GitHub Pages:</li>
+  <br>
+  <img src="images/gh-pages-as-default-branch-for-githubpages.JPG.JPG">
+  <br>
+  <br>
 <ul>
+  
+  
+  
