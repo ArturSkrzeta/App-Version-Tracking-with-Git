@@ -249,6 +249,5 @@
 <ul>
   <li>Building GitHub Pages site from the master branch:</li>
   <br>
-  <br>
   <img src="images/gitpages.JPG">
 <ul>
