@@ -264,7 +264,7 @@
   <br>
   <li>Setting gh-pages branch as default:</li>
   <br>
-  <img src="images/gph_default.JPG">
+  <img src="images/ghp_default.JPG">
   <br>
   <br>
   <li>Deleting master branch:</li>
