@@ -77,6 +77,12 @@
     <br>
     - git commit -m 'changed script.py'
   </li>
+  <li>Checking all commits:
+    <br>
+    - git clog<br>
+    <br>
+    <img src="images/gitlog.JPG">
+  </li>
   <li>Setting a file as ignored to prevent from staging and committing:
     <br>
     - touch .gitignore<br>
