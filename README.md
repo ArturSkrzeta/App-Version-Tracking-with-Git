@@ -255,4 +255,21 @@
   <li>Linking in the about section:</li>
   <br>
   <img src="images/linking.JPG">
+  <br>
+  <br>
+  <li>Creating gh-pages branch:</li>
+  <br>
+  <img src="images/ghpages_branch.JPG">
+  <br>
+  <br>
+  <li>Setting gh-pages branch as default:</li>
+  <br>
+  <img src="images/gph_default.JPG">
+  <br>
+  <br>
+  <li>Deleting master branch:</li>
+  <br>
+  <img src="images/delete_master.JPG">
+  <br>
+  <br>
 <ul>
