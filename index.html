@@ -110,9 +110,62 @@
 								<div class="container">
 									<h3>Demo</h3>
 
-									<h5>...:</h5>
+									<h5>Git on Windows 10:</h5>
 									<ul>
-									  <li>...</li>
+									  <li>Running Git Bash.</li>
+									  <li>Go to project folder with <b>cd</b> command.</li>
+									  <li>Create project files as needed with <b>touch</b> command</li>
+									  <li>Initialize directory as git repository with <code>git init</code> command:
+									    <br>
+									    - it creates .git hidden folder in the current directory
+									  </li>
+									  <li>Create user:
+									    <br>
+									    - <code>git config --global user.name 'Artur Skrzeta'</code><br>
+									    - <code>git config --global user.email 'arturskrzeta@gmail.com'</code>
+									  </li>
+									  <li>Adding a file to stage:
+									    <br>
+									    - <code>git add script.py</code>
+									  </li>
+									  <li>Checking what is in the stage:
+									    <br>
+									    - <code>git status</code>
+									  </li>
+									  <li>Removing files from the stage:
+									    <br>
+									    - <code>git rm --cached script.py</code>
+									  </li>
+									  <li>Adding all files to stage:
+									    <br>
+									    - <code>git add .</code><br>
+									    - it commits whole directory paths as well
+									  </li>
+									  <li>Committing staged files:
+									    <br>
+									    - <code>git commit</code><br>
+									    - it opens a new bash window: type 'i' for inserting, 'esc' keyboar for escaping inserting mode, ':wq' for writing and quitting
+									    <br>
+									    <br>
+									    <img src="images/commit.JPG">
+									  </li>
+									  <li>Committing staged files with commentary:
+									    <br>
+									    - <code>git commit -m 'changed script.py'</code>
+									  </li>
+									  <li>Checking all commits:
+									    <br>
+									    - <code>git clog</code><br>
+									    <br>
+									    <img src="images/gitlog.JPG">
+									  </li>
+									  <li>Setting a file as ignored to prevent from staging and committing:
+									    <br>
+									    - <code>touch .gitignore</code><br>
+									    - in .gitignore type file name to be ingored along with an extension f.e.: index.html<br>
+									    - in .gitignore type while directory f.e.: /dir2<br>
+									    - .gitignore will be staged and committed as well
+									  </li>
 									</ul>
 
 								</div>
