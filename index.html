@@ -124,6 +124,10 @@
 									    - <code>git config --global user.name 'Artur Skrzeta'</code><br>
 									    - <code>git config --global user.email 'arturskrzeta@gmail.com'</code>
 									  </li>
+										<li>Listing all the configuration you provide
+											<br>
+											- <code>git config --list</code>
+										</li>
 									  <li>Adding a file to stage:
 									    <br>
 									    - <code>git add script.py</code>
@@ -203,21 +207,15 @@
 									    <br>
 									    - <code>git remote</code>
 									  </li>
-									   <li>Adding remote repository:
-									    <br>
-									    - <code>git remote add origin https://github.com/ArturSkrzeta/Test2.git</code>
-									  </li>
-									  <li>Pushing local repository into remote one:
-									    <br>
-									    - <code>git push -u origin master</code>
-									  </li>
-									  <li>Pushing README.md
+									  <li>Pushing README.md into GitHub repository
 									    <br>
 									    - <code>touch README.md</code><br>
 									    - <code>echo "# test" >> README.md</code><br>
 									    - <code>git add README.md</code><br>
 									    - <code>git commit -m 'Adding readme'</code><br>
-									    - <code>git push -u origin master</code><br>
+											- <code>git branch -M main</code><br>
+											- <code>git remote add origin https://github.com/ArturSkrzeta/test.git</code>
+									    - <code>git push -u origin main</code><br>
 									  </li>
 									  <li>Pulling all repository:
 									    <br>
