@@ -12,7 +12,7 @@
 <h3>Git application</h3>
 <ul>
   <li>Keeps track of code histor.</li>
-  <li>Takes snapshot of your files at a time.</li>
+  <li>Takes snapshot of your files at the moment.</li>
   <li>You decide when to take a snapshot by making a commit.</li>
   <li>You can visit any snpashot back in time.</li>
   <li>You can stage files before committing.</li>
