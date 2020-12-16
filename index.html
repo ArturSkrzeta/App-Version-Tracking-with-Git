@@ -155,7 +155,7 @@
 									  </li>
 									  <li>Checking all commits:
 									    <br>
-									    - <code>git clog</code><br>
+									    - <code>git log</code><br>
 									    <br>
 									    <img src="images/gitlog.JPG" width="600">
 									  </li>
@@ -163,8 +163,75 @@
 									    <br>
 									    - <code>touch .gitignore</code><br>
 									    - in .gitignore type file name to be ingored along with an extension f.e.: index.html<br>
-									    - in .gitignore type while directory f.e.: /dir2<br>
-									    - .gitignore will be staged and committed as well
+									    - in .gitignore type whole directory f.e.: /dir2<br>
+									    - .gitignore will be staged and committed as well.
+									  </li>
+									</ul>
+
+									<h5>Branches</h5>
+									<ul>
+									  <li>Commiting changes to project aside wwithout affecting main branch.</li>
+									  <li>Listing all branches:
+									    <br>
+									    - <code>git branch new_branch</code>
+									  </li>
+									  <li>Creating a new branch:
+									    <br>
+									    - <code>git branch new_branch</code>
+									  </li>
+									  <li>Switching branches:
+									    <br>
+									    - <code>git checkout new_branch</code><br>
+									    <br>
+									    <img src="images/branches.JPG">
+									  </li>
+									  <li>Getting back to master branch makes files created on new_branch disappear:
+									    <br>
+									    - <code>git checkout master</code><br>
+									    <br>
+									    <img src="images/back_to_master.JPG">
+									  </li>
+									  <li>Merging master and new_branch branches from master branch:
+									    <br>
+									    - <code>git merge new_branch</code>
+									  </li>
+									</ul>
+
+									<h5>Remote repository</h5>
+									<ul>
+									  <li>Listing all remote repositories:
+									    <br>
+									    - <code>git remote</code>
+									  </li>
+									   <li>Adding remote repository:
+									    <br>
+									    - <code>git remote add origin https://github.com/ArturSkrzeta/Test2.git</code>
+									  </li>
+									  <li>Pushing local repository into remote one:
+									    <br>
+									    - <code>git push -u origin master</code>
+									  </li>
+									  <li>Pushing README.md
+									    <br>
+									    - <code>touch README.md</code><br>
+									    - <code>echo "# test" >> README.md</code><br>
+									    - <code>git add README.md</code><br>
+									    - <code>git commit -m 'Adding readme'</code><br>
+									    - <code>git push -u origin master</code><br>
+									  </li>
+									  <li>Pulling all repository:
+									    <br>
+									    - <code>git pull</code>
+									  </li>
+									  <li>Cloning a repository:
+									    <br>
+									    - <code>git clone https://github.com/ArturSkrzeta/Test2.git</code><br>
+									    - copying repository into current directory
+									  </li>
+									  <li>Pushing a new branch to remote repository:
+									    <br>
+									    - <code>git branch new_branch</code><br>
+									    - <code>git push origin new_branch</code>
 									  </li>
 									</ul>
 
