@@ -235,6 +235,33 @@
 									    - <code>git branch new_branch</code><br>
 									    - <code>git push origin new_branch</code>
 									  </li>
+										<li>We can also push repo into CI/CD platform as GitLab:
+											<br>
+											<code>git push -u "https://gitlab.com/ArturSkrzeta/my_project.git" master</code>
+											- it will ask for your credentials.s
+										</li>
+									</ul>
+
+									<h5>GitLab:</h5>
+									<ul>
+										<li>Project forking:
+											<br>
+											- copy of a project and it allows to make changes without affecting the original project.<br>
+											- steps:<br>
+											1. loign into gitlab profile,<br>
+											2. enter project,<br>
+											3. click fork icon,<br>
+											4. if namespace not available, then we go to Groups -> Your groups -> New Group -> name it and create it,<br>
+											5. if namespace available, then select it and project forked successfully.
+										</li>
+										<li>Securied Shell (SSH):
+											<br>
+											- used for authentication, by setting ssh key we can connect to gitlab server without using username and password each time,<br>
+											- on windows, we need ot use putty app or git bash,<br>
+											- running git bash, we need to type the folowing command <b>ssh-keygen</b> and then enterin,<br>
+											- once done, in aministrator profile on C drive there is <b>.shh</b> folder created,<br>
+											- then on the gitlab, we need to go to the account's setting > ssh keys > pasting content of id_rsa.pub file > giving it a title.
+										</li>
 									</ul>
 
 								</div>
