@@ -259,10 +259,24 @@
 											- used for authentication, by setting ssh key we can connect to gitlab server without using username and password each time,<br>
 											- stpes:
 											<br>
-											1. on windows, we need ot use putty app or git bash,<br>
-											2. running git bash, we need to type the folowing command <b>ssh-keygen</b> and then enterin,<br>
+											1. on windows, we need to use putty app or git bash,<br>
+											2. running git bash, we need to type the folowing command <b>ssh-keygen</b> and then entering,<br>
 											3. once done, in aministrator profile on C drive there is <b>.shh</b> folder created,<br>
 											4. then on the gitlab, we need to go to the account's setting > ssh keys > pasting content of id_rsa.pub file > giving it a title.
+										</li>
+										<li>CI/CD:
+											<br>
+											<b>Continuous Integration:</b>
+											<br>
+											- <code>dev</code> > <code>app test</code> > <code>integraton test</code>
+											<br>
+											<b>Continuous Delivery:</b>
+											<br>
+											- <code>dev</code> > <code>app test</code> > <code>integraton test</code> > <code>acceptance test</code>
+											<br>
+											<b>Continuous Deployment:</b>
+											<br>
+											- <code>dev</code> > <code>app test</code> > <code>integraton test</code> > <code>acceptance test</code> > <code>prod</code>
 										</li>
 									</ul>
 
