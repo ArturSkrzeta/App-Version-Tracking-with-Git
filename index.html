@@ -268,15 +268,43 @@
 											<br>
 											<b>Continuous Integration:</b>
 											<br>
-											- <code>dev</code> > <code>app test</code> > <code>integraton test</code>
+											- <code>dev</code> > <code>app test</code> > <code>integration test</code><br>
+											- multiple devs pushes changes to a common remote repository - every change is built and tested automatically.
 											<br>
 											<b>Continuous Delivery:</b>
 											<br>
-											- <code>dev</code> > <code>app test</code> > <code>integraton test</code> > <code>acceptance test</code>
+											- <code>dev</code> > <code>app test</code> > <code>integration test</code> > <code>acceptance test</code><br>
+											- code is checked automatically but deployment needs to be done manually
 											<br>
 											<b>Continuous Deployment:</b>
 											<br>
-											- <code>dev</code> > <code>app test</code> > <code>integraton test</code> > <code>acceptance test</code> > <code>prod</code>
+											- <code>dev</code> > <code>app test</code> > <code>integration test</code> > <code>acceptance test</code> > <code>prod</code><br>
+											- deployment is automatic.
+										</li>
+										<li>CI/CD in steps:
+											<br>
+											1. commit - new code being integrated to the code base.<br>
+											2. build - source code is converted to the exexutable form.<br>
+											3. test - check the interaction between build and if the app is working.<br>
+											4. deploy - deployin  to prod env.
+										</li>
+										<li>Steps to use Gitlab CI-CD:
+											<br>
+											1. App code base hosted on Git repo.<br>
+											2. Building and deployment script sequentially defined in the script of YAML fieldset.<br>
+											3. YAML file needs to be located in the root path of your repo.<br>
+											4. YAML file needs to be called <b>.gitlab-ci.yml</b>
+										</li>
+										<li>YAML configuration file consists of 3 stages:
+											<br>
+											<span style="font-size:14px">source: edureka</span><br>
+											<img src="images/yaml.JPG">
+											<br>
+											and determines:
+											<br>
+											- pipeline structure,<br>
+											- steps to be executed,<br>
+											- condition decisions.
 										</li>
 									</ul>
 
