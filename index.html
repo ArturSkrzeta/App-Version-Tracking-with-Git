@@ -49,6 +49,10 @@
 										<h2>App Version Tracking with Git</h2>
 										<h3>Intro</h3>
 
+										<h5>Where is Human ends is where devops begins:</h5>
+										<span style="font-size:14px">source: dzone</span><br>
+										<img src="images/agile_vs_devops.JPG" width="700">
+
 										<h5>Git:</h5>
 										<ul>
 										  <li>Distributed version control system.</li>
@@ -296,6 +300,11 @@
 											3. YAML file needs to be located in the root path of your repo.<br>
 											4. YAML file needs to be called <b>.gitlab-ci.yml</b>.
 										</li>
+										<li>CI/CD pipeline:
+											<br>
+											<span style="font-size:14px">source: dzone</span><br>
+											<img src="images/cicd_pipeline.JPG">
+										</li>
 										<li>YAML configuration file consists of 3 stages:
 											<br>
 											<span style="font-size:14px">source: edureka</span><br>
@@ -307,6 +316,58 @@
 											- steps to be executed,<br>
 											- condition decisions.
 										</li>
+									</ul>
+
+									<h5>CICD for db:</h5>
+									<ul>
+										<li>Here are following challenges (comparing to Appp devops):
+											<br>
+											<span style="font-size:14px">source: dzone</span><br>
+											<img src="images/db_challenges.JPG">
+										</li>
+										<li>Database change management:
+											<br><br>
+											<table style="width:100%">
+												<tr>
+													<th>Imperative</th>
+													<th>Declarative</th>
+												</tr>
+												<tr>
+													<td>Each change (or set of changes) to db are in their own versioned script taht need to be applied in the right order.</td>
+													<td>For each object we maintain a one definition file that is being changed over time.</td>
+												</tr>
+												<tr>
+													<td>Requires maintaining state of each db where the vesion has been deployed.</td>
+													<td>Deploying changes requires a tool creating a migration script (we cannot run the same whole script again as we might already have a table existing).
+															We need a schema comparison tool comparing definition in the code with exisitng database and based on the differences it generates alter statements
+															(or create statemnt if the schema doesn't exist).
+													</td>
+												</tr>
+												<tr>
+													<td>Very felxible but error-prone.</td>
+													<td>Less error prone.</td>
+												</tr>
+											</table>
+										</li>
+										<li>Snowchange as database change management tool:
+											<br>
+											- Flexible, written in Python (but nof official Snowflake offering).<br>
+											- Impiels imperative way of changes providing.<br>
+											- We need to keep to the structure of project folder:
+<!-- code area start -->
+<pre>
+> project root
+  > folder 1
+    V1.1.1__first_change.sql
+  > folder 2
+    V1.1.2__second_change.sql
+</pre>
+<!-- code area stop -->
+										- we can have any number of folders,<br>
+										- in each forlder, there is a changing script with proper naming convention and vesrioning,<br>
+										- snowchange starts from the root walking through everu sub-folder recursively and finding all the scripts.<br>
+										</li>
+
 									</ul>
 
 								</div>
