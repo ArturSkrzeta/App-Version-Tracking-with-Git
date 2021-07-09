@@ -177,6 +177,20 @@
 									    - in .gitignore type whole directory f.e.: /dir2<br>
 									    - .gitignore will be staged and committed as well.
 									  </li>
+										<li>There is another type of a file which is .gitkeep:
+											<br>
+											- <code>touch .gitkeep</code><br>
+											- we can use it when we want to keep tracking empty dictionaries,<br>
+											- we can then push it to the remote repository,<br>
+											- the fact is, the name of it could be anything as there is no special siginificance to the name,<br>
+											- example:<br>
+											<code>mkdir empty-directory</code><br>
+											<code>cd empty-directory</code><br>
+											<code>touch .gitkeep</code><br>
+											<code>git add .</code><br>
+											<code>git commit -m "Commit empty folder in Git with gitkeep"</code><br>
+											<code>git push origin</code>
+										</li>
 									</ul>
 
 									<h5>Branches:</h5>
