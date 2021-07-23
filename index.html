@@ -192,6 +192,14 @@
 											<code>git push origin</code><br>
 											- to sum it up, we might need to get .gitkeep in the empty directory otherwise we cannot push empty folder to the remote repository.
 										</li>
+										<li>With stash we can create a record of a current changes and bring back the clean branch. After that, I cancheck out other branches or start working from the beginning on the current one:
+											<br>
+											<code>git stash</code>
+										</li>
+										<li>Removiv all from the stage:
+											<br>
+											<code>git reset </code>
+										</li>
 									</ul>
 
 									<h5>Branches:</h5>
@@ -244,7 +252,8 @@
 									  </li>
 									  <li>Pulling all repository (getting fully synchronized with remote repo):
 									    <br>
-									    - <code>git pull</code>
+									    - <code>git pull</code><br>
+											- when creating a new branch, in ordert to see it with <code>git branch -a</code> we need to pull remote repo into local one every time we want to by in sync.
 									  </li>
 									  <li>Cloning a repository:
 									    <br>
@@ -263,14 +272,14 @@
 										<li>We can also push repo into CI/CD platform as GitLab:
 											<br>
 											<code>git push -u "https://gitlab.com/ArturSkrzeta/my_project.git" master</code><br>
-											- it will ask for your credentials and you have to have an access token set up on the Gitlab account.
+											- it will ask for your credentials and you have to have an access token set up on the Gitlab account.<br>
+											- we need to access token created and assigned to gitlab profile in order to push someting via HTTPS.
 											<br>
-											- pushing a new script:<br>
+											- pushing a new script using ssh:<br>
 											<code>git status</code><br>
 											<code>git add Deployment_Scripts/v1_test.sql</code><br>
 											<code>git commit -m "abc"</code><br>
 											<code>git push -u git@....git local_artur</code><br>
-											- or we can push it using ssh.
 										</li>
 									</ul>
 
