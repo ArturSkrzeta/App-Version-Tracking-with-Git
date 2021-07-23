@@ -242,7 +242,7 @@
 											- <code>git remote add origin https://github.com/ArturSkrzeta/test.git</code><br>
 									    - <code>git push -u origin main</code><br>
 									  </li>
-									  <li>Pulling all repository:
+									  <li>Pulling all repository (getting fully synchronized with remote repo):
 									    <br>
 									    - <code>git pull</code>
 									  </li>
@@ -263,7 +263,14 @@
 										<li>We can also push repo into CI/CD platform as GitLab:
 											<br>
 											<code>git push -u "https://gitlab.com/ArturSkrzeta/my_project.git" master</code><br>
-											- it will ask for your credentials.
+											- it will ask for your credentials and you have to have an access token set up on the Gitlab account.
+											<br>
+											- pushing a new script:
+											<code>git status</code><br>
+											<code>git add Deployment_Scripts/v1_test.sql</code><br>
+											<code>git commit -m "abc"</code><br>
+											<code>git push -u git@....git local_artur</code><br>
+											- or we can push it using ssh.
 										</li>
 									</ul>
 
