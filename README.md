@@ -278,6 +278,22 @@
   <br>
   <br>
 <ul>
+ 
   
   
+<h5>short:</h5>
+<ul>
+  <li>git init</li>
+  <li>clon z deva / pull z deva - git pull origin DEV // git clone -b DEV git@ssh</li>
+  <li>cd -> repo</li>
+  <li>czekaout do locala: git checkout local_artur</li>
+  <li>robienie zmian: V1++__description</li>
+  <li>: git status</li>
+  <li>: git add .</li>
+  <li>: git commit -m ""</li>
+  <li>push do locala - git push origin local_artur</li>
+  <li>merge z locala do dev - gitlab</li>
+  <li>merge z dev do uat - gitlab</li>
+  <li>git pull origin DEV and so on</li>
+</ul>
   
