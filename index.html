@@ -422,7 +422,17 @@
 										<br>
 										<img src="images/cicd_to_snowflake.jpg">
 									</ul>
-
+									<ol>
+										<li>Developer pulls remote repository from DEV branch in order to be up-to-date with other developers.</li>
+										<li>Developer makes and pushes change scripts from local repository into developer's branch in the remote repository.</li>
+										<li>Developer merges his branch with DEV branch.</li>
+										<li>Developer raises the merge request to UAT branch.</li>
+										<li>Code approver/reviewer accepts the merge request and CICD is triggered.</li>
+										<li>Changes are deployed in Snowflake in UAT environment.</li>
+										<li>Developer raises the merge request to PRD branch.</li>
+										<li>Code approver/reviewer accepts the merge request and CICD is triggered.</li>
+										<li>Changes are deployed in Snowflake in PROD environment.</li>
+									</ol>
 								</div>
 							</section>
 
