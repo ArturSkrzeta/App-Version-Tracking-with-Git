@@ -305,7 +305,7 @@
 											3. once done, in aministrator profile on C drive there is <b>.shh</b> folder created,<br>
 											4. then on the gitlab, we need to go to the account's setting > ssh keys > pasting content of id_rsa.pub file > giving it a title.
 										</li>
-										<li>CI/CD:
+										<li>CI/CD in GitLab:
 											<br>
 											<b>Continuous Integration:</b>
 											<br>
@@ -386,10 +386,15 @@
 												</tr>
 											</table>
 										</li>
-										<li>Snowchange as database change management tool:
+										<li>Snowchange as database change management (DCM) tool:
 											<br>
-											- Flexible, written in Python (but nof official Snowflake offering).<br>
+											- One of the DCM tools (also known as database migration, schema change management, or schema migration tools).<br>
+											- Allows managing Snowflake objects (tables, views, stored procedures, and so on).<br>
+											- Flexible, lightweight, written in Python (but nof official Snowflake offering).<br>
+											- Combined with a version control system and a CI/CD tool, database changes can be approved and deployed through a pipeline using modern software delivery practices.<br>
 											- Impiels imperative way of changes providing.<br>
+											- A snowchange change script is just a file that contains one or more SQL statements.<br>
+											- Each change script name must include a unique version number (for example, V1.1__first_change.sql) that is used to ensure the scripts are run in the correct order against a target Snowflake database's object.<br>
 											- We need to keep to the structure of project folder:
 <!-- code area start -->
 <pre>
@@ -401,11 +406,21 @@
 </pre>
 <!-- code area stop -->
 										- we can have any number of folders,<br>
-										- in each forlder, there is a changing script with proper naming convention and vesrioning,<br>
+										- in each folder, there is a changing script with proper naming convention and vesrioning,<br>
 										- snowchange starts from the root walking through every sub-folder recursively and finding all the scripts,<br>
 										- we just need to simply run <b>snowchange.py</b> giving it a root project's directory and snowflake credentials.<br>
 										</li>
+										<li>When running, the snowchange loop through entire database applying any missing changes to the objects.</li>
+										<li>Snowchange runs scripts only against the target database with a version number larger than the max version stored in the change history table. This way, only “new” scripts are applied to the target database each time snowchange is run.</li>
+										<li>The state of each target database is tracked in a special change history table named <b>SNOWCHANGE.CHANGE_HISTORY</b> (which is automatically created and maintained by snowchange).</li>
+										<li>Just to sum up, a DCM tool is critical for managing the Snowflake objects and implementing CI/CD pipelines.</li>
+									</ul>
 
+									<h5>CICD deploying changes flow:</h5>
+									<ul>
+										<li>Here is the schema of complete flow of deploying any changes to Snowflake:</li>
+										<br>
+										<img src="images/cicd_to_snowflake.jpg">
 									</ul>
 
 								</div>
